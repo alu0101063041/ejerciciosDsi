@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2122/prct06-generics-solid-alu0101063041.git"
+    "url": "git+https://github.com/alu0101063041/ejerciciosDsi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-INF-DSI-2122/prct06-generics-solid-alu0101063041/issues"
+    "url": "https://github.com/alu0101063041/ejerciciosDsi/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2122/prct06-generics-solid-alu0101063041#readme",
+  "homepage": "https://github.com/alu0101063041/ejerciciosDsi#readme",
   "devDependencies": {
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",

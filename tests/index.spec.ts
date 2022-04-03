@@ -1,6 +1,6 @@
 import 'mocha'
 import {expect} from 'chai'
-import {clientCode} from '../src/index'
+import {} from '../src/index'
 
 describe('Test', () => {
   it('test1', () => {
