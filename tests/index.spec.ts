@@ -1,9 +1,10 @@
 import 'mocha'
 import {expect} from 'chai'
-import {} from '../src/index'
+import {SystemA} from '../src/index'
 
 describe('Test', () => {
   it('test1', () => {
-      expect(1).to.be.eq(1)
+    const A: SystemA = new SystemA;
+    expect(A).to.be.instanceOf(SystemA)
   })
 })
