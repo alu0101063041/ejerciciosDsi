@@ -1,8 +1,9 @@
 import 'mocha'
 import {expect} from 'chai'
+import {clientCode} from '../src/index'
 
-describe('', () => {
-  it('', () => {
-    
+describe('Test', () => {
+  it('test1', () => {
+      expect(1).to.be.eq(1)
   })
 })
