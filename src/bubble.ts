@@ -21,3 +21,4 @@ export class Bubble implements Strategy {
     return data;
   }
 }
+

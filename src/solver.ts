@@ -1,8 +1,7 @@
-import { Merge } from './merge';
-import { Bubble } from './bubble';
 /**
  * This is an example of context class where different algorithms are available
  */
+
 export interface Strategy {
   execute(data: number[]): number[];
 }
