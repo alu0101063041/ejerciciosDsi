@@ -1,8 +1,4 @@
 
-export namespace App {
-  export type JSONData = {
-    name: string;
-    surname: string;
-    username: string;
-  }
+export namespace alg {
+  export enum ALGORITHM_TYPE {Bubble, Merge};
 }
