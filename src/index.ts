@@ -1,15 +1,4 @@
-// Client code is able to work properly with the interface of SystemA
-export class SystemA {
-  constructor(private csvData: string = '') {
-  }
-  getData(): string {
-    return this.csvData;
-  }
-}
-
-export type JSONData = {
-  name: string;
-  surname: string;
-  username: string;
-}
+import {App} from '../src/system'
+const a: App.SystemA = new App.SystemA
+console.log(a)
 
