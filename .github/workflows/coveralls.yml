@@ -28,4 +28,4 @@ jobs:
       run: npm run coverage
     - name: Coveralls Github Action
       run: coverallsapp/github-action@master
-      with: ${{ secret.GITHUB_TOKEN }}
+      with: ${{ secrets.GITHUB_TOKEN }}
