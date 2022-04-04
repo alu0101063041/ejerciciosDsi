@@ -11,6 +11,10 @@ const mergetest: Solver = new Solver(data, new Merge)
 describe('Test', () => {
   it('bubble', () => {
     expect(bubbletest).to.be.instanceOf(Solver)
+    expect(bubbletest).to.deep.eq([
+      1, 1, 1, 1, 2,
+      3, 4, 4, 5, 5,
+      6, 7])
   })
   it('Merge', () => {
     expect(mergetest).to.be.instanceOf(Solver)

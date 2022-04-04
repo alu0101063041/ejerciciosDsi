@@ -13,7 +13,7 @@ export class Solver {
   setStrategy(str: Strategy) {
     this.strategy = str
   }
-  logic() {
-    this.strategy.execute(this.data)
+  logic() :number[] {
+    return this.strategy.execute(this.data)
   }
 }
